@@ -209,7 +209,7 @@ Correctly tunning the hyperparameters we can see that it still performs well.
 
 # Some Machine Learning tools
 
-The analysis using Machine Learning models is included in the [ML_models.md file](https://github.com/DanielLapido/Breast_cancer/edit/main/ML_models.md), however some machine learning tools are included here to compare their performance with the previous models. Their main advanage is that they do do not need any previous assumptions from the data. Lets see if they end up performing better than the logistic regression model:
+The analysis using Machine Learning models is included in the [ML_models.md file](https://github.com/DanielLapido/Breast_cancer/blob/main/ML_models.md), however some machine learning tools are included here to compare their performance with the previous models. Their main advanage is that they do do not need any previous assumptions from the data. Lets see if they end up performing better than the logistic regression model:
 
 ## KNN
 
