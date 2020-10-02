@@ -258,7 +258,7 @@ The models will be trained again, but this time their hyperparameters will be tu
 |B  | 62|  0|
 |M  |  9| 42|
 
-\vspace{1cm}
+
 
 
 |               |      x|
