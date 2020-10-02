@@ -1,20 +1,4 @@
----
-title: "Breast Cancer Machine Learning Study"
-author: "Daniel Lapido Martínez"
-date: "January 20, 2020"
-output:
-  pdf_document: default
-  html_document:
-    toc: true
----
-
-
-
-
-
-
-
-# Brief summary
+# Breast Cancer Machine Learning Study
 
 ### Introduction
 
