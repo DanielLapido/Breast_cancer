@@ -1,16 +1,5 @@
----
-title: "Breast cancer study"
-author: "Daniel Lapido Martínez"
-date: "December 8, 2019"
-output:
-  pdf_document: default
-  html_document:
-    number_sections: true
----
 
-
-
-# Introduction
+# Breast cancer study
 
 Breast cancer is the most frequent cancer type
 within women of all around the world. Although the rates are higher in developed countries, it is spreading worldwide.
@@ -192,9 +181,9 @@ Properly adjusting the prior probabilities, the results obtained are the followi
 
 Even though the accuracy is worse, the amount of false negatives (which are the type of errors that we would like to avoid) is still small.
 
-## Naïve Bayes
+## NaÃ¯ve Bayes
 
-Naïve Bayes is a fast classifier although requires the strong assumption of independance between predictors. Nonetheless we still give it a try and see how well it performs:
+NaÃ¯ve Bayes is a fast classifier although requires the strong assumption of independance between predictors. Nonetheless we still give it a try and see how well it performs:
 
 
 
@@ -218,9 +207,9 @@ Correctly tunning the hyperparameters we can see that it still performs well.
 |McnemarPValue  | 0.4532547|
 
 
-# Some Machine learning tools
+# Some Machine Learning tools
 
-Finally, we are going to use some machine learning tools to compare their performance with the previous models. Their main advanage is that they do do not need any previous assumptions from the data. Lets see if they end up performing better than the logistic regression model:
+The analysis using Machine Learning models is included in the[ML_models.md file](https://github.com/DanielLapido/Breast_cancer/edit/main/ML_models.md), however some machine learning tools are included here to compare their performance with the previous models. Their main advanage is that they do do not need any previous assumptions from the data. Lets see if they end up performing better than the logistic regression model:
 
 ## KNN
 
@@ -277,6 +266,3 @@ Exceptional performance and no assumptions were needed of the data.
 All statistical models used performed brilliantly with the dataset employed. Although it was real data, this is pretty unusual and we would normally never get such a high accuracy (over 90\% with all models).
 
 Every model has positive and negative things as we have been discussing through the project. Looking at the results, we could argue that the one that have better performed was the logistic regression model, even though it required to previously remove strongly correlated variables for the algorithm to converge. This variable selection was carried out manually so it is highly probable that the final predictors were not the optimal ones, in fact it is possible that too many variables were dropped. This could have been done with an automatic procedure, however we would have not gainned that much innsight. 
-
-At the end, two machine learning models were added to compare their performance with the statistical models. And as we saw the resuts were pretty similiar. It is possible that if another dataset had been used the gap between them would have been larger. In fact, if it is possible (maybe even mandatory) I will change the working dataset to another more complex, and then compare again the performance between the two tools. 
-<!-- In this first part of the project we have used statistical tools to preprocess and analyze a pretty clean dataset. Normally this would have required much more effort.  -->
