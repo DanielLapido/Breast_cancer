@@ -20,7 +20,7 @@ Data can be found in UCI Machine Learning Repository: https://archive.ics.uci.ed
 
 Before doing anything, lets examine the data looking for missing values, outliers and unnecesary features.
 
-All variables are continous and there are no missing values. However, we notice that there is an iddentification number that is not useful for classification, so we remove it.
+All variables are continous and there are no missing values. We notice that there is an identification number that is not useful for classification, so we remove it. (However it must be saved in case we needed to contact the patient!)
 
 
 
