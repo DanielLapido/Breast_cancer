@@ -155,7 +155,7 @@ If we had not dropped correlated variables, we could have used penalized logisti
 
 ## LDA
 
-This classification model performs better for multi-class classification, however we have already seen that we have very well separated groups, so LDA might perform as well as logistic regression. Nonetheless this method requires predictors to be somehow Gaussian.
+This classification model performs better for multi-class classification, however we have already seen that we have very separated groups, so LDA might perform as good as logistic regression. Nonetheless this method requires predictors to be somewhat Gaussian.
 
 Properly adjusting the prior probabilities, the results obtained are the following:
 
@@ -183,7 +183,7 @@ Even though the accuracy is worse, the amount of false negatives (which are the 
 
 ## Naïve Bayes
 
-Naïve Bayes is a fast classifier although requires the strong assumption of independance between predictors. Nonetheless we still give it a try and see how well it performs:
+Naïve Bayes is a fast classifier that requires the strong assumption of independance between predictors. Nonetheless we still give it a try and see how well it performs:
 
 
 
@@ -265,4 +265,4 @@ Exceptional performance and no assumptions were needed of the data.
 
 All statistical models used performed brilliantly with the dataset employed. Although it was real data, this is pretty unusual and we would normally never get such a high accuracy (over 90\% with all models).
 
-Every model has positive and negative things as we have been discussing through the project. Looking at the results, we could argue that the one that have better performed was the logistic regression model, even though it required to previously remove strongly correlated variables for the algorithm to converge. This variable selection was carried out manually so it is highly probable that the final predictors were not the optimal ones, in fact it is possible that too many variables were dropped. This could have been done with an automatic procedure, however we would have not gainned that much innsight. 
+Every model has positive and negative things as we have been discussing through the project. Looking at the results, we could argue that the one that have better performed was the logistic regression model, even though it required to previously remove strongly correlated variables for the algorithm to converge. This variable selection was carried out manually so it is highly probable that the final predictors were not the optimal ones, in fact it is possible that too many variables were dropped. This process will be done with an automatic procedure when using the Machine Learning tools. 
