@@ -39,7 +39,7 @@ All variables are continous and there are no missing values. We notice that ther
 ## Outlier detection
 
 Some boxplots are employed in order to visualize extreme values.
-We can see that there are plenty of outliers but there is no reason to think that they are typos. We will not remove them as those larger values will probably indicate a higher likelihood of malignancy
+We can see that there are plenty of outliers but there is no reason to think that those are typos. We will not remove them as those larger values will probably indicate a higher likelihood of malignancy
 
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-2.png)
 
